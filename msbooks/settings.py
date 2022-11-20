@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'msbooks_engine.apps.MsbooksEngineConfig',
+    'msbooks_books.apps.MsbooksBooksConfig',
+    'msbooks_orders.apps.MsbooksOrdersConfig',
 ]
 
 MIDDLEWARE = [
